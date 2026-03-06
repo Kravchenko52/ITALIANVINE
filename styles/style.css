@@ -19,3 +19,56 @@ body{
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12{
     width: 200px;
 }
+
+.slider{
+    width: 100%;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.slider-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;  
+    height: 800px;
+
+}
+.block{
+    width: 100%;
+    height: 100%;
+}
+.block:last-child{
+background-color: #460202;
+}
+.catigories{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  gap: 10px;
+  height: 100vh;
+
+}
+c-block{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+
+}
+.col{
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.row1{
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
+.row2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
