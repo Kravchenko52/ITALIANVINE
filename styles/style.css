@@ -11,7 +11,7 @@ body{
 
 
 }
-.wraper{
+.wrapper{
     margin: 0 75px;
 
 }
@@ -71,4 +71,20 @@ c-block{
     grid-column-start: 2;
     grid-column-end: 4;
 
+}
+.img_1{
+    width: 840px;
+    height: 380px;
+} 
+main, p{
+    color: #460202;    
+    background-color: #A30202;
+}
+
+.slider-grid img{
+    width: 100%;
+    height: 100%;
+}
+.corn-hub {
+    border: solid, black, 3px ;
 }
